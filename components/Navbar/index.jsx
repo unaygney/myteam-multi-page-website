@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Twirl as Hamburger } from "hamburger-react";
 import Logo from "./logo.svg";
 import Link from "next/link";
+import BgImage from "./bg-image.svg";
 import { NAV_LINKS } from "./constant";
 import clsx from "clsx";
 function Navbar() {
@@ -60,7 +61,7 @@ function Navbar() {
         >
           overlay
         </div>
-        <div className="w-[70%] bg-[#2C6269] text-white">
+        <div className="w-[70%] bg-[#2C6269] text-white relative">
           <div className="flex flex-col px-6 py-14">
             <button className="ml-auto ">
               {" "}
@@ -88,6 +89,9 @@ function Navbar() {
                 Contact Us
               </Link>
             </nav>
+          </div>
+          <div className="absolute right-0 bottom-0">
+            <BgImage />
           </div>
         </div>
       </div>
