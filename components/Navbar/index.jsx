@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <header className="bg-[#014E56]  ">
-      <div className="container mx-auto flex justify-between md:justify-start items-center px-6 py-12">
+      <div className="container mx-auto flex justify-between md:justify-start items-center px-6 md:px-0 lg:py-[77px] py-12">
         <Link href={"/"}>
           <Logo />
         </Link>
