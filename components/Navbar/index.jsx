@@ -48,7 +48,7 @@ function Navbar() {
       {/* Hamburger Menu */}
       <div
         className={clsx(
-          "absolute top-0  right-0 bottom-0 flex transition-all overflow-hidden md:hidden z-10   ",
+          "absolute top-0  right-0 bottom-0 flex transition-all overflow-y-hidden md:hidden z-10   ",
           {
             "left-0 flex ": isOpen,
           },
