@@ -19,11 +19,11 @@ function ManageSection() {
                 className="flex flex-col md:flex-row gap-2 md:gap-6 items-center   "
               >
                 {card.image}
-                <div className="mt-2 flex flex-col gap-2">
+                <div className="mt-2 flex flex-col gap-2 ">
                   <h5 className=" text-[#f77e7e] text-lg font-bold leading-7 ">
                     {card.title}
                   </h5>
-                  <p className="text-white text-opacity-80 font-semibold leading-6 text-[15px] text-center md:text-start">
+                  <p className="text-white text-opacity-80 font-semibold leading-6 text-[15px] text-center md:text-start ">
                     {card.content}
                   </p>
                 </div>
