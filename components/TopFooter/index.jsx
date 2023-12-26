@@ -10,7 +10,7 @@ function TopFooter() {
           </h4>
           <Link
             className="inline-flex items-center justify-center w-[153px] h-[48px] rounded-3xl font-semibold  border-[#012f34] border-2"
-            href={"/about"}
+            href={"/contact"}
           >
             contact us
           </Link>
