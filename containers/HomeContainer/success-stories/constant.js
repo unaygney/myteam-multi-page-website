@@ -1,6 +1,6 @@
 import AvatarKady from "@/assets/images/avatar-kady.jpg";
-import AvatarReese from "@/assets/images/avatar-kady.jpg";
-import AvatarClarke from "@/assets/images/avatar-kady.jpg";
+import AvatarReese from "@/assets/images/avatar-aiysha.jpg";
+import AvatarClarke from "@/assets/images/avatar-arthur.jpg";
 
 export const CARDS = [
   {
