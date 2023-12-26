@@ -7,6 +7,6 @@ export const NAV_LINKS = [
   {
     id: 0,
     title: "about",
-    path: "/",
+    path: "/about",
   },
 ];
