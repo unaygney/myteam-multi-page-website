@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Twirl as Hamburger } from "hamburger-react";
 import Logo from "./logo.svg";
 import Link from "next/link";
@@ -8,6 +8,14 @@ import { NAV_LINKS } from "./constant";
 import clsx from "clsx";
 function Navbar() {
   const [isOpen, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "visible";
+    }
+  }, [isOpen]);
 
   return (
     <header className="bg-[#014E56]  ">
