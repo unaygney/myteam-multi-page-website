@@ -13,10 +13,7 @@ function Footer() {
               <Logo />
             </Link>
             <div className="flex gap-6 ">
-              <Link
-                className="text-[15px] font-semibold leading-6"
-                href={"home"}
-              >
+              <Link className="text-[15px] font-semibold leading-6" href={"/"}>
                 home
               </Link>
               <Link

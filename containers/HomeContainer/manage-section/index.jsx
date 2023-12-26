@@ -8,7 +8,7 @@ function ManageSection() {
         <div className="flex flex-col gap-14 text-white lg:flex-row lg:justify-between">
           <div className="flex flex-col gap-8">
             <span className="w-[50px] h-1 bg-[#f67e7e] "></span>
-            <h3 className="text-[32px] lg:text-[48px] lg:leading-[48px] font-bold max-w-[12ch] md:max-w-[25ch] lg:max-w-[20ch] ">
+            <h3 className="text-[32px]  lg:text-[48px] lg:leading-[48px] font-bold max-w-[12ch] md:max-w-[25ch] lg:max-w-[20ch] ">
               Build & manage distributed teams like no one else.
             </h3>
           </div>
@@ -20,7 +20,7 @@ function ManageSection() {
               >
                 {card.image}
                 <div className="mt-2 flex flex-col gap-2 ">
-                  <h5 className=" text-[#f77e7e] text-lg font-bold leading-7 ">
+                  <h5 className=" text-[#f77e7e] text-lg font-bold text-center md:text-start leading-7 ">
                     {card.title}
                   </h5>
                   <p className="text-white text-opacity-80 font-semibold leading-6 text-[15px] text-center md:text-start ">
