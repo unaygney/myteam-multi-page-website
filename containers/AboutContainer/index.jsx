@@ -1,7 +1,12 @@
 import React from "react";
+import AboutHero from "./about-hero";
 
 function AboutContainer() {
-  return <div>about container</div>;
+  return (
+    <main>
+      <AboutHero />
+    </main>
+  );
 }
 
 export default AboutContainer;
