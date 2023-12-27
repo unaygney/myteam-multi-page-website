@@ -4,7 +4,7 @@ function AboutHero() {
   return (
     <section className="bg-[#014E56] bg-about-hero-1 bg-no-repeat bg-right-bottom">
       <div className="container mx-auto px-6 md:px-0">
-        <div className="flex flex-col lg:gap-[150px] lg:flex-row gap-4 text-white text-center pt-8 pb-[108px] items-center lg:items-start ">
+        <div className="flex flex-col lg:gap-[150px] lg:flex-row gap-4 text-white text-center pt-8 pb-[108px] lg:pb-[120px] items-center lg:items-start ">
           <h1 className="text-[40px] md:text-[64px] md:leading-[56px] lg:leading-[100px]  leading-10 font-bold ">
             About
           </h1>

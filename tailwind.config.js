@@ -14,6 +14,8 @@ module.exports = {
         "hero-image-3": "url(/bg-pattern-home-3.svg)",
         "hero-image-4": "url(/bg-pattern-home-4.svg)",
         "about-hero-1": "url(/bg-pattern-about-1.svg)",
+        "cards-1": "url(/bg-pattern-cards-1.svg)",
+        "cards-2": "url(/bg-pattern-cards-2.svg)",
         "top-footer": "url(/bg-top-footer.svg)",
         "manage-section": "url(/bg-manage-section.svg)",
         quotes: "url(/bg-quotes.svg)",
