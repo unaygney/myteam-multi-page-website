@@ -86,6 +86,7 @@ function Navbar() {
                   className="text-lg font-semibold leading-7 "
                   key={link.id}
                   href={link.path}
+                  onClick={() => setOpen(false)}
                 >
                   {link.title}
                 </Link>
@@ -93,6 +94,7 @@ function Navbar() {
               <Link
                 className="inline-flex items-center justify-center w-[159px] h-[48px] rounded-3xl text-white border-white border-2 mt-3"
                 href={"about"}
+                onClick={() => setOpen(false)}
               >
                 Contact Us
               </Link>
