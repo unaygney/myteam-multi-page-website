@@ -38,7 +38,7 @@ function Navbar() {
 
         <Link
           className=" items-center justify-center w-[153px] h-[48px] rounded-3xl text-white border-white border-2 ml-auto hidden md:inline-flex "
-          href={"about"}
+          href={"contact"}
         >
           Contact Us
         </Link>
@@ -72,7 +72,6 @@ function Navbar() {
         <div className="w-[70%] bg-[#2C6269] text-white relative">
           <div className="flex flex-col px-6 py-14">
             <button className="ml-auto ">
-              {" "}
               <Hamburger
                 size={20}
                 color="white"
@@ -93,7 +92,7 @@ function Navbar() {
               ))}
               <Link
                 className="inline-flex items-center justify-center w-[159px] h-[48px] rounded-3xl text-white border-white border-2 mt-3"
-                href={"about"}
+                href={"contact"}
                 onClick={() => setOpen(false)}
               >
                 Contact Us

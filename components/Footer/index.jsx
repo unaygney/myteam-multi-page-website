@@ -5,7 +5,7 @@ import SocialLink from "./social-links.svg";
 
 function Footer() {
   return (
-    <footer className="bg-[#002529] ">
+    <footer className="bg-[#002529] mt-auto  ">
       <div className="container mx-auto px-6 py-[66px] md:px-0 text-white ">
         <div className="flex flex-col gap-6  items-center md:items-start md:flex-row md:justify-between lg:justify-start lg:gap-[125px]  ">
           <div className="flex flex-col gap-6 items-center  ">
