@@ -22,7 +22,7 @@ function Form() {
         draggable
         theme="dark"
       />
-      <div className="container mx-auto px-7 md:px-0 py-[88px]">
+      <div className="container mx-auto px-7 md:px-0 pb-[88px]">
         <div className="flex flex-col lg:flex-row gap-14">
           <div className="flex flex-col items-center lg:items-start text-white gap-4 mb-10">
             <h1 className="text-[40px] md:text-[64px md:leading-[56px] font-bold leading-10 ">
