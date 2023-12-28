@@ -63,3 +63,36 @@ export const CARDS = [
     ),
   },
 ];
+
+export const FORM_INPUTS = [
+  {
+    id: 0,
+    title: "name",
+    placeholder: "Name",
+    type: "text",
+  },
+  {
+    id: 1,
+    title: "email",
+    placeholder: "Email Address",
+    type: "email",
+  },
+  {
+    id: 2,
+    title: "companyName",
+    placeholder: "Company Name",
+    type: "text",
+  },
+  {
+    id: 3,
+    title: "title",
+    placeholder: "Title",
+    type: "text",
+  },
+  {
+    id: 4,
+    title: "message",
+    placeholder: "Message",
+    type: "text",
+  },
+];
