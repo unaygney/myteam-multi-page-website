@@ -18,6 +18,8 @@ module.exports = {
         "client-2": "url(/bg-pattern-clients-2.svg)",
         "cards-1": "url(/bg-pattern-cards-1.svg)",
         "cards-2": "url(/bg-pattern-cards-2.svg)",
+        "form-1": "url(/bg-pattern-form.svg)",
+        "form-2": "url(/bg-pattern-form-2.svg)",
         "top-footer": "url(/bg-top-footer.svg)",
         "manage-section": "url(/bg-manage-section.svg)",
         quotes: "url(/bg-quotes.svg)",

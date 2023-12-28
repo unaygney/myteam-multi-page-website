@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.min.css";
 function Form() {
   const notify = () => toast("Your message has been sent");
   return (
-    <section className="bg-[#014e56] ">
+    <section className="bg-[#014e56] bg-form-2 md:bg-form-1 bg-no-repeat bg-right-bottom ">
       <ToastContainer
         position="bottom-right"
         autoClose={3000}
@@ -22,7 +22,7 @@ function Form() {
         draggable
         theme="dark"
       />
-      <div className="container mx-auto px-7 md:px-0">
+      <div className="container mx-auto px-7 md:px-0 py-[88px]">
         <div className="flex flex-col lg:flex-row gap-14">
           <div className="flex flex-col items-center lg:items-start text-white gap-4 mb-10">
             <h1 className="text-[40px] md:text-[64px md:leading-[56px] font-bold leading-10 ">
@@ -62,11 +62,8 @@ function Form() {
             }}
           >
             {(formik) => (
-              <form
-                className="bg-[#014e56] lg:flex-1"
-                onSubmit={formik.handleSubmit}
-              >
-                <div className="flex flex-col gap-6 pb-[128px]">
+              <form className="lg:flex-1 " onSubmit={formik.handleSubmit}>
+                <div className="flex flex-col gap-6 ">
                   {FORM_INPUTS.map((input) => (
                     <div key={input.id} className="flex flex-col ">
                       <input
